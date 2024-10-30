@@ -1,0 +1,79 @@
+.btn {
+  display: inline-block;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: open sans, sans-serif;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 0.3rem;
+  -webkit-appearance: button;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #212529;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #1fa69d;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #3cbfae;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mt-3 {
+  margin-top: 2rem;
+}
+
+.current.menu-top.toplevel_page_connectpos > .wp-menu-image > img {
+  height: 20px;
+  width: 20px;
+  opacity: 1 !important;
+  padding-top: 0px !important;
+}
+
+.current.menu-top.toplevel_page_connectpos > .wp-menu-image {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-page-content-container {
+  height: calc(100vh - 300px);
+}
